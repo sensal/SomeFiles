@@ -6,9 +6,9 @@
 
 "set shortmess=atI   " 启动的时候不显示那个援助乌干达儿童的提示  
 
-"winpos 5 5          " 设定窗口位置  
+winpos 5 5          " 设定窗口位置  
 
-"set lines=40 columns=155    " 设定窗口大小  
+set lines=35 columns=110    " 设定窗口大小  
 
 "set nu              " 显示行号  
 
@@ -60,15 +60,15 @@ endif
 
 " 设置配色方案
 
-"colorscheme murphy
+colorscheme molokai
 
 "字体 
 
-"if (has("gui_running")) 
+if (has("gui_running")) 
 
-"   set guifont=Bitstream\ Vera\ Sans\ Mono\ 10 
+   set guifont=Bitstream\ Vera\ Sans\ Mono\ 10 
 
-"endif 
+endif 
 
 
  
